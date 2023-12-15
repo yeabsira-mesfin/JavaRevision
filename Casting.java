@@ -21,7 +21,6 @@ public class Casting {
         // When we have values that can't be casted like the below we have a wrapper class, for example Integer is a rapper class for int.
 
         String st= "1";
-
        
         int result =  Integer.parseInt(st) + 7;
         System.out.println(result);
