@@ -16,6 +16,5 @@ public class Switch {
             System.out.println("Invalid login");
                 break;
         }
-
     }
 }
