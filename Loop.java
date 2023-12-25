@@ -18,8 +18,13 @@ public class Loop {
         do{
             System.out.println("Please enter your user name");
             input = scanner.nextLine().toLowerCase();
+            // if(!input.equals("quit"))
+            if(input.equals("pass"))
+            continue;
+             if(input.equals("quit"))
+             break;
             System.out.println(input);
         }
-        while(!input.equals("quit"));
+        while(true);
         }
 }
